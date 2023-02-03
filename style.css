@@ -47,6 +47,7 @@ input#keyword:focus {
     outline: none;
 }
 
+
 /*--------------------AUTOCOMPLETE------------------------*/
 
 .prefixbox-autocomplete-container {
@@ -66,7 +67,7 @@ input#keyword:focus {
 
 .two-column {
     width: 750px;
-
+    height: 500px;
 }
 
 .prefixbox-autocomplete-container.open {
@@ -88,7 +89,26 @@ input#keyword:focus {
 
 .prefixbox-autocomplete-container .col-2 {
     /* width: 50%; */
-    background: #fff;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+
+.col-2::-webkit-scrollbar {
+    width: 7px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #d4d4d4;
+}
+
+.col-2::-webkit-scrollbar-thumb {
+    width: 7px;
+    background-color: var(--prefixbox-primary);
+    border-radius: 10px;
+}
+
+.col-2::-webkit-scrollbar-thumb:hover {
+    background-color: #1ba58a;
 }
 
 .prefixbox-autocomplete-container .prefixbox-autocomplete-keyword-container {
@@ -140,6 +160,9 @@ input#keyword:focus {
     opacity: .15;
 }
 
+/*--------------------COL-2------------------------*/
+
+
 .prefixbox-group-2-title.pfbx-group-title {
     display: none;
 }
@@ -150,21 +173,33 @@ input#keyword:focus {
 }
 
 .prefixbox-autocomplete-product {
-    padding: 10px;
+    height: 219px;
+
     display: flex;
+    flex-direction: column;
     align-items: center;
+
+    padding: 10px;
+    border-radius: 24px;
+
+    background-color: red;
 }
 
 .prefixbox-autocomplete-left {
-    width: 33%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 25px;
+    height: 90px;
+    background-color: blue;
+
+    object-fit: cover;
+    background-position: center center;
 }
 
 .prefixbox-autocomplete-left img {
+
     max-width: 80px;
     max-height: 80px;
+
+    object-fit: cover;
 }
 
 .prefixbox-autocomplete-body {

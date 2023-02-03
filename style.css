@@ -103,7 +103,7 @@ input#keyword:focus {
     width: 100%;
     overflow: hidden;
 
-    padding-right: 12px;
+    padding: 0 12px;
 }
 
 
@@ -111,7 +111,7 @@ input#keyword:focus {
     position: relative;
 
     border-bottom: 1px solid rgba(255, 255, 255, .15);
-    padding: 14px;
+    padding: 12px;
 
     font-family: var(--body-fontMontserrat);
     font-size: 14px;
@@ -224,7 +224,10 @@ input#keyword:focus {
 .prefixbox-autocomplete-product:hover {
     border: 2px solid var(--prefixbox-primary);
     box-shadow: 0 2px 5px rgba(0, 0, 0, .25);
+}
 
+.prefixbox-autocomplete-product:hover .prefixbox-autocomplete-body {
+    color: var(--prefixbox-primary);
 }
 
 .prefixbox-autocomplete-left {
@@ -320,6 +323,16 @@ input#keyword:focus {
     .group-id-1::-webkit-scrollbar {
         width: 0;
     }
+
+    .prefixbox-autocomplete-product-container {
+        width: 100%;
+        min-width: 194px;
+    }
+
+    .prefixbox-autocomplete-product {
+        width: 100%;
+    }
+
 }
 
 @media (max-width: 500px) {

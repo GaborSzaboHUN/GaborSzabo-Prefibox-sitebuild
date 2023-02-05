@@ -9,7 +9,7 @@ Please find below the attached images about the finished project.
 
 ### How to open the project:
 
-- in VS code right click on the index.html and choose Open with live server
+- in VS code right click on the autocomplete.html and choose Open with live server
 
 
 

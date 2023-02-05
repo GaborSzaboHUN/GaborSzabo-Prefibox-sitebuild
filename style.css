@@ -251,7 +251,6 @@ input#keyword:focus {
 
 .prefixbox-autocomplete-left>img {
     height: 100%;
-    max-width: 100%;
 }
 
 .prefixbox-autocomplete-body {

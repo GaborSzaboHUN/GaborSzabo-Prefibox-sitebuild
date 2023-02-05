@@ -11,6 +11,13 @@ Please find below the attached images about the finished project.
 
 - in VS code right click on the index.html and choose Open with live server
 
+
+
+
+
+https://user-images.githubusercontent.com/66555347/216797725-865d5d0f-c040-4664-9f6a-fc2194feaa37.mp4
+
+
 <img width="1438" alt="Screen Shot 2023-02-03 at 15 16 01" src="https://user-images.githubusercontent.com/66555347/216627239-eb8e7910-b1bb-4f8c-9036-f226807a879a.png">
 <img width="1440" alt="Screen Shot 2023-02-03 at 15 16 52" src="https://user-images.githubusercontent.com/66555347/216627230-43cea725-f368-44e8-904d-3370e1aae0a4.png">
 <img width="1440" alt="Screen Shot 2023-02-03 at 15 16 37" src="https://user-images.githubusercontent.com/66555347/216627187-86e5eefd-8016-47a7-a47f-54cf0da735a6.png">
